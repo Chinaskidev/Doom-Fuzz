@@ -1,27 +1,29 @@
-# Dependencias
-node_modules/
+# Build
+build/
+cmake-build-*/
+out/
 
-# Build de produccion
-dist/
-
-# Variables de entorno
-.env
-.env.local
-.env.*.local
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Cache de editores y OS
-.DS_Store
-Thumbs.db
+# IDE
+.idea/
+.vscode/
 *.swp
 *.swo
 *~
-.vscode/
-.idea/
 
-# Cache de Vite
-.vite/
+# OS
+.DS_Store
+Thumbs.db
+
+# JUCE (external dependency, download separately)
+JUCE/
+Builds/
+JuceLibraryCode/
+
+# Compiled
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.vst3
+*.component
