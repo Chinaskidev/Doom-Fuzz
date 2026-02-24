@@ -27,3 +27,5 @@ JuceLibraryCode/
 *.dll
 *.vst3
 *.component
+#claude
+CLAUDE.md

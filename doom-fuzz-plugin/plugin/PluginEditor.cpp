@@ -72,16 +72,16 @@ void DoomFuzzEditor::paint(juce::Graphics& g) {
         for (int px = 0; px < getWidth(); px += 4)
             g.fillRect(px, py, 1, 1);
 
-    // Header: "YULTIC DSP"
+    // Header: "YULTIC"
     g.setColour(juce::Colour(DoomFuzzLookAndFeel::kSubText));
     g.setFont(juce::Font("Courier New", 11.0f, juce::Font::plain));
-    g.drawText("YULTIC DSP", getLocalBounds().removeFromTop(45).withTrimmedTop(20),
+    g.drawText("YULTIC", getLocalBounds().removeFromTop(45).withTrimmedTop(20),
                juce::Justification::centred);
 
-    // Title: "DOOM FUZZ"
+    // Title: "PATADOOM"
     g.setColour(juce::Colour(DoomFuzzLookAndFeel::kGold));
     g.setFont(juce::Font("Georgia", 28.0f, juce::Font::bold));
-    g.drawText("DOOM FUZZ", getLocalBounds().removeFromTop(75).withTrimmedTop(42),
+    g.drawText("PATADOOM", getLocalBounds().removeFromTop(75).withTrimmedTop(42),
                juce::Justification::centred);
 
     // Subtitle

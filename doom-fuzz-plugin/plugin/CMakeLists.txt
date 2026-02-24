@@ -1,7 +1,7 @@
 juce_add_plugin(DoomFuzzPlugin
-    PRODUCT_NAME "Doom Fuzz"
-    COMPANY_NAME "YulticDSP"
-    BUNDLE_ID "com.yulticdsp.doomfuzz"
+    PRODUCT_NAME "PATADOOM"
+    COMPANY_NAME "Yultic"
+    BUNDLE_ID "com.yultic.patadoom"
     PLUGIN_MANUFACTURER_CODE Yult
     PLUGIN_CODE DmFz
     FORMATS VST3 Standalone
